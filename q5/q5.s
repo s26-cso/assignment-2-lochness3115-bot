@@ -80,7 +80,7 @@ no:
     call printf
 
 done:
-    # Cleanup and return
+    # return
     li a0, 0
     ld ra, 40(sp)
     ld s0, 32(sp)
